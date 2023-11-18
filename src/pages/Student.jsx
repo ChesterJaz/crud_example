@@ -1,7 +1,24 @@
-import React from "react";
+import axios from "axios";
+import React, {useEffect} from "react";
 import { Link } from "react-router-dom";
 
+
+
 const Student = () => {
+  
+  useEffect(() => {
+
+    axios.get()
+    .then(res => {
+      
+    })
+
+
+  }, [])
+  
+  
+  
+  
   return (
     <div className="container mt-5">
       <div className="row">
