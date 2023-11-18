@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3">
       <div class="container-fluid">
         <Link class="navbar-brand" to="/">
           Navbar
@@ -34,17 +34,6 @@ const Navbar = () => {
             <li class="nav-item">
               <Link class="nav-link" to="/about-us">
                 About
-              </Link>
-            </li>
-            <li class="nav-item dropdown">
-              <Link
-                class="nav-link dropdown-toggle"
-                to="/"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
               </Link>
             </li>
           </ul>
